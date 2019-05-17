@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.icecream2.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "F:\\Game Dev\\IceCream2\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "IceCream2 [Testing]"
+        }
+      }
+    }
+  ]
+}
