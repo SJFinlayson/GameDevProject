@@ -660,6 +660,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Clock\Scripts\Clock.cs" />
+    <Compile Include="Assets\Scripts\Countdown.cs" />
+    <Compile Include="Assets\Scripts\IceOnCone.cs" />
+    <Compile Include="Assets\Scripts\ScoopCollide.cs" />
     <Compile Include="Assets\Scripts\ScoopInteract.cs" />
   </ItemGroup>
   <ItemGroup>

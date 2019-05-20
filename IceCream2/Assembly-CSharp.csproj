@@ -60,6 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Clock\Scripts\Clock.cs" />
+    <Compile Include="Assets\Scripts\Countdown.cs" />
+    <Compile Include="Assets\Scripts\IceOnCone.cs" />
+    <Compile Include="Assets\Scripts\ScoopCollide.cs" />
     <Compile Include="Assets\Scripts\ScoopInteract.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Game Dev/IceCream2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

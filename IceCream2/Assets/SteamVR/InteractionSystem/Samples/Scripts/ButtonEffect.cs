@@ -9,10 +9,15 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class ButtonEffect : MonoBehaviour
     {
+        //public GameObject scoopHand;
+        [System.NonSerialized]
+        public Hand attachedToHand;
+
         public void OnButtonDown(Hand fromHand)
         {
             ColorSelf(Color.cyan);
             fromHand.TriggerHapticPulse(1000);
+            //attachedToHand = scoopHand;
         }
 
         public void OnButtonUp(Hand fromHand)
